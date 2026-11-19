@@ -3,7 +3,7 @@ Sound sensors for the people.
 
 ## Target Audience
 
-## Usaage area
+## Usage area
 
 
 test
