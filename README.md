@@ -23,4 +23,4 @@
 * **Hur kontexten påverkar vår design:**
   * **Mobilanpassad (Responsiv med Bootstrap):** Eftersom studenter kollar i mobilen på väg till en sal måste kort och grafer anpassa sig till små skärmar.
   * **Helt tyst gränssnitt:** Inga ljudnotiser i gränssnittet, bara visuella varningar, så att man inte stör i en tyst läsesal.
-  * **Integritet:** Endast dB-siffror sparas och visas, aldrig ljudinspelningar.
+  * **Integritet:** Endast dB-siffror sparas och visas. Inga ljudinspelningar sker. 
