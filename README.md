@@ -9,7 +9,7 @@
     * 🟡 **Gul (45–60 dB):** Lågt sorl – passar grupparbete.
     * 🔴 **Röd (> 60 dB):** Högljutt – välj en annan plats.
   * **Historiska värden:** Ett diagram (Chart.js) som visar ljudnivån timme för timme under dagen och veckan.
-* **Kunskap:** Studenten får direkt kunskap om **vilken studieplats som är lugnast just nu** samt **vilka tider på dygnet det brukar vara tystast**.
+* **Kunskap:** Studenten får direkt kunskap om **vilken studieplats som är lugnast just nu** samt **vilka tider på dygnet det brukar vara tystast**. Vilket kan hjälpa studenter att studera effektivt.
 
 ## 2. Användaranalys
 * **Användare:** Studenter på MDU som söker en lugn studieplats inför eget plugg eller grupparbete.
