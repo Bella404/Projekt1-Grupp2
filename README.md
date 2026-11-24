@@ -32,6 +32,8 @@ Syftet med studierokollen är att snabbt visa för studenter vilken ljudnivå de
 * Mäter och visar endast studieplatser i biblioteket på MDU Eskilstuna.
 * Ljudnivån visas genom färger, grön, orange och röd, tillsammans med ikoner.
 * Mäter ljudnivån efter mänskligt tal.
+* Spelar inte in ljud.
+* Mäter och visar inte hur många som befinner sig på platsen.
 
 ## 6. Förslag på visualiseringar 
-* En karta med olika cirklar, som representerar olika studieplatser, och som byter färg efter aktuell ljudnivå på platsen. Klickar man på en cirkel får man fram en ruta i samma färg som cirkeln som visar en ikon som symboliserar ljudnivån samt en text likt: "passande för grupparbete". 
+* En karta med olika cirklar, som representerar olika studieplatser, och som byter färg efter aktuell ljudnivå på platsen. Klickar man på en cirkel får man fram en ruta som visar en ikon som symboliserar ljudnivån samt en text likt: "passande för grupparbete". Ett kryss i hörnet av rutan finns för att kunna stänga ner den. 
