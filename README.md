@@ -2,14 +2,43 @@
 # Projektbeskrivning (PRO1): Studiero-kollen (Ljudnivåmätning)
 
 ## 1. Från sensor till visualisering och kunskap
-* **Sensor:** Ljudsensor (mikrofon) placerad i biblioteket på MDU. Sensorerna mäter endast ljudstyrka i decibel (dB) – inga samtal spelas in.
-* **Visualisering (Webbsida med Bootstrap & Chart.js):**
-  * **Aktuellt värde:** Olika ljudnivåer visas med trafikljusfärger och ikoner:
-    * 🟢 **Grön (< 45 dB):** Tyst – bra för djupfokus.
-    * 🟡 **Gul (45–60 dB):** Lågt sorl – passar grupparbete.
-    * 🔴 **Röd (> 60 dB):** Högljutt – välj en annan plats.
-  * **Historiska värden:** Ett diagram (Chart.js) som visar ljudnivån timme för timme under dagen och veckan.
-* **Kunskap:** Studenten får direkt kunskap om **vilken studieplats som är lugnast just nu** samt **vilka tider på dygnet det brukar vara tystast**. Vilket kan hjälpa studenter att studera effektivt.
+*Vi kallar vårt projekt **Studiero-kollen**. Det handlar om något som jag tror att de flesta studenter känner igen.
+
+Man behöver plugga och letar efter en lugn plats, kanske i biblioteket eller i någon av skolans studiesalar. Men när man väl kommer dit märker man att det är mycket prat och ljud. Då måste man kanske leta efter en annan plats.
+
+Så vi började fundera: **Tänk om man kunde se hur lugnt det är på en studieplats innan man ens går dit?**
+
+### Hur fungerar det?
+
+Vi vill placera små ljudsensorer på olika studieplatser här på MDU, till exempel i biblioteket och studiesalarna.
+
+En ljudsensor mäter hur högt eller lågt ljudet är. Ljudnivån mäts i **decibel (dB)**. Ju högre värde, desto högre är ljudnivån.
+
+En viktig sak är att sensorn inte ska spela in vad människor säger. Den ska bara mäta ljudnivån, inte själva samtalen.
+
+### Hur visas ljudnivån?
+
+Ljudnivån ska visas på en webbsida. Vi vill göra det så enkelt som möjligt för studenten att förstå, utan att behöva tolka en massa siffror.
+
+Därför använder vi samma princip som ett trafikljus:
+
+🟢 **Grönt (under 45 dB):** Det är lugnt och tyst. Det passar bra för den som vill plugga ostört och koncentrera sig.
+
+🟡 **Gult (45–60 dB):** Det är lite mer ljud. Folk kanske pratar eller arbetar i grupper. Platsen kan därför passa bättre för grupparbete.
+
+🔴 **Rött (över 60 dB):** Här är det ganska högljutt. Om man behöver lugn och ro kan det vara bättre att välja en annan studieplats.
+
+### Diagram – Chart.js
+
+Vi vill också använda ett **diagram med Chart.js** som visar hur ljudnivån förändras under dagen och veckan.
+
+Det betyder att studenten inte bara kan se hur högt ljudet är just nu, utan också hur det har sett ut tidigare.
+
+Till exempel kanske biblioteket är lugnare på morgonen men mer högljutt på eftermiddagen. Genom diagrammet kan studenten upptäcka sådana mönster och lättare planera när och var det passar bäst att plugga.
+
+På det här sättet vill vi göra det enklare för studenter att hitta en studieplats som passar deras behov.
+
+* **Kunskap:** Studenten får direkt kunskap om **vilken studieplats som är lugnast just nu** samt **vilka tider på dygnet det brukar vara tystast**.
 
 ## 2. Användaranalys
 * **Användare:** Studenter på MDU som söker en lugn studieplats inför eget plugg eller grupparbete.
